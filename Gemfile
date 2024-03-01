@@ -45,6 +45,7 @@ group :development do
   gem "beaker-module_install_helper",                                        require: false
   gem "beaker-puppet_install_helper",                                        require: false
   gem "nokogiri",                                                            require: false
+  gem 'prism', '>= 0.24.0'
 end
 group :system_tests do
   gem "puppet_litmus", '~> 1.0', require: false, platforms: [:ruby, :x64_mingw]
